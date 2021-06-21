@@ -1,7 +1,8 @@
 # SDET-test
-##Instructions
+
+## Instructions
 1. Install libraries using `pip install -r requirements.txt`
-2. Run command `pytest -n 4 --capture=tee-sys`
+2. Run command `pytest -n 4 --capture=tee-sys` (this will execute the 4 tests in differents threads)
 3. Check `pytest_html_report.html`
 
 ![alt text](example-report.JPG)
