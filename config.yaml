@@ -1,0 +1,18 @@
+appName: NASA_Challenge
+
+host: https://api.nasa.gov/
+# Pushed for testing purposes
+nasa_api_key: rVaWwLqGG0IGg6GE22CzLyxC4DbcXiba72LntlCR
+topic : mars-photos/
+api_version : v1/
+landing_date : '2012-08-06'
+cameras:
+      - FHAZ
+      - RHAZ
+      - MAST
+      - CHEMCAM
+      - MAHLI
+      - MARDI
+      - NAVCAM
+      - PANCAM
+      - MINITES
