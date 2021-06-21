@@ -9,8 +9,9 @@
 [example_report](https://joyep-jojo.github.io/nasa_challenge/report/pytest_html_report.html#dashboard)
 
 *Notes*
-You can also create a virtual env and follow the same steps
 
+* You can also create a virtual env and follow the same steps
+* Time spent: 5 hours
 ## Challenge
 Create pilot Java test framework for testing NASA's open API.
 
