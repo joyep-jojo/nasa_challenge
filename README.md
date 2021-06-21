@@ -1,4 +1,15 @@
 # SDET-test
+##Instructions
+1. Install libraries using `pip install -r requirements.txt`
+2. Run command `pytest -n 4 --capture=tee-sys`
+3. Check `pytest_html_report.html`
+
+![alt text](example-report.JPG)
+[example_report](report/pytest_html_report.html)
+
+*Notes*
+You can also create a virtual env and follow the same steps
+
 ## Challenge
 Create pilot Java test framework for testing NASA's open API.
 

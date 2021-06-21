@@ -15,7 +15,6 @@ api_version = cfg['api_version']
 landing_date = cfg['landing_date']
 
 api = 'photos'
-
 sol_date = '1000'
 amount_images = 10
 
@@ -71,12 +70,11 @@ def test_get_and_compare_photos_between_earth_date_martian_sol():
 
 
 def test_curiosity_camera_photos_greater_than_10_times_other_cameras():
-    #total_cameras = ['FHAZ', 'RHAZ', 'MAST', 'CHEMCAM', 'MAHLI', 'MARDI', 'NAVCAM', 'PANCAM', 'MINITES']
     total_cameras = cfg['cameras']
-    print(total_cameras)
     total_amount_photos_curiosity = 0
     total_amount_photos_others = 0
 
+    # Iterating through all the cameras
     for camera in total_cameras:
         query_params = '?sol=' + sol_date + '&camera=' + camera + '&api_key=' + nasa_api_key
         nasa_result = utils.get_nasa_rovers_photos(
